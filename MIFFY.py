@@ -172,6 +172,54 @@ def poppyIcon():
 ⠀⠀⠀⠀⠀⠀⠀⠘⠷⣤⣴⢿⡿⠶⠶⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠳⠶⠶⣿⠶⠶⠞⠃⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 """)
+
+def aggieIcon():
+    print("""
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸⠀⢸⠀⠀⠀⠀⠀⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢸⠀⡎⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⠀⠀⢸⠀⡇⠀⠀⠀⠀⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⠓⠃⠀⠀⠀⢀⡸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠣⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⣴⣶⠀⠀⠀⠀⠀⠀⠀⠀⢼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠀⠀⠀⠀⠀⠀⠀⠀⠈⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢠⣤⣤⡤⠤⠤⠤⠤⠤⠤⠐⠒⠒⠒⠒⠒⠒⠒⠚⠛⠉⠉⠉⢱⡀⠈⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣶⣟⠂⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠈⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⣠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠
+⠀⢡⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣴⠒⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣆⠀⠀⣙⣶⣤⣄⣀⣀⣀⣀⣀⣀⣀⣀⣠⣤⣶⡎⠁⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⢸
+⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠻⡘⣾⡏⣽⢻⣷⣦⡀⠀⠀⠀⠀⠀⠀⢹⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⣿⣗⠖⠲⡶⣀⣀⠀⠀⠀⣸⠉⡏
+⠀⠀⢡⠀⠀⠀⠀⠀⠀⠀⠀⢸⠻⣿⡘⣮⣳⣿⠇⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠿⠋⠛⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠹⣿⣷⣼⡇⡆⡉⣳⣤⣤⠧⢶⠀
+⠀⠀⠈⡇⠀⠀⠀⠀⠀⠀⠀⠘⠺⠃⠯⠽⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡟⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣾⠏⠀⡸⠀⣼⠀
+⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡷⠀⠀⠀⠀⠀⠀⢀⡄⢀⣀⣀⣀⣀⣀⠀⠀⠘⣿⣿⣿⣟⠁⠀⠇⠀⢉⠀
+⠀⠀⠀⠈⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣤⣤⣷⠆⣀⣉⣤⣤⣄⠁⣲⣿⠇⠾⢭⣭⣹⠿⠍⡇⠘⢿⠙⠻⠛⣾⢀⠔⠁⠀
+⠀⠀⠀⠉⢹⣀⣀⣀⣀⣀⣠⣤⡤⠤⠖⠒⠒⠊⠉⠉⠉⠉⠉⠀⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⣹⡏⢺⣤⣄⡀⢬⡕⢰⢷⠀⠸⡆⠀⠀⡏⣾⠀⠀⠀          
+          """)
+def barbaraIcon():
+    print("""
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣶⠾⠛⠛⠛⠉⠉⠉⠉⠉⠛⠛⠛⠷⣶⣄⡀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⣠⣴⣶⣶⣤⣀⣠⣴⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣶⣾⠟⠋⠉⠉⠻⢿⣦⡀⠀⠀
+⠀⢠⣾⠛⠁⠀⠀⢉⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣆⠀⠀⠀⠀⠀⠹⣷⠀⠀
+⢀⣿⠃⠀⠀⠀⠀⣾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣆⠀⠀⠀⠀⠀⢿⡇⠀
+⢸⡏⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠐⠿⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀⠀⣸⡇⠀
+⢸⣇⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠰⠆⠀⢴⠄⠘⠋⠀⢀⣀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⢠⣿⠁⠀
+⠈⢿⣦⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⢿⡿⠀⠀⠸⠇⢠⣤⣤⡄⢠⣤⠀⠀⠸⠿⠃⠀⠀⠀⠀⣿⣇⣀⣀⣴⡿⠃⠀⠀
+⠀⠀⠙⠿⢶⣦⣼⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⡃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⠙⠛⠋⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢻⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠏⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣋⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢛⣿⣦⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⣴⠾⠛⠉⠉⠛⠻⣶⣄⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣠⣶⠾⠛⣩⣿⠏⠹⣿⠛⠛⠛⠛⠛⣻⡿⠛⠛⣿⠉⠉⠀⠀⠀⠀⠀⠀⠀⠈⠙⣷⣄⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣴⡿⠋⠀⢀⣼⠟⠁⠀⠀⠻⣧⣄⣀⣤⣾⠟⠀⠀⠀⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡀⠀⠀⠀
+⠀⠀⠀⠀⣾⡏⠀⠀⣴⡿⠋⠀⠀⠀⠀⠀⠈⠉⠉⠉⠀⠀⠀⠀⠀⠈⠻⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣀⠀⠀⠀
+⠀⠀⠀⠀⢿⣧⣀⣾⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⠷⣶⣤⣤⣤⣤⡾⠟⠉⠻⢷⣤⡀
+⠀⠀⠀⠀⠈⠙⢿⣏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠃
+⠀⠀⠀⠀⠀⠀⠈⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⠟⠁⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⠟⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢷⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣴⡾⠛⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣨⣿⠿⣶⣶⣤⣤⣄⣀⡀⠀⠀⢀⣀⣀⣤⣤⣶⡶⠟⢻⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡟⠁⠀⠀⠀⠈⠉⠉⠛⠛⠛⢻⣿⠋⠉⠉⠀⠀⣀⣤⣾⠏⠀⠀⠀⠀⠀⠀⠀⠀          
+          """)
 def mensajePersonaje(personaje):
     while True:
         input("Presiona enter para continuar...")
@@ -432,18 +480,20 @@ def carreras(opcion, personaje):
     print("Ahora aprenderemos como usar esta unidad para medir la longitud")
     input("Presiona enter para continuar... ")
     F5=0
-    print(f"KILOMETRO {' '*3}METRO{' '*4}CENTIMETRO")
+    print(f"{'KILOMETRO':<12}{'METRO':<12}{'CENTIMETRO':<15}")
+    print("-"*39)
     for x in range(1, 10*opcion+1):
-        print(f'{x:3d}{" "*7}{x*1000:4d}{" "*6}{x*100000:5,d}')
+        print(f"{x:<12}{x*1000:<12}{x*100000:<15,}")
         F5 += x**2
+    print("-"*39)
     return F5
     
 historial = []
 
-def puntoExperiencia(personaje, F1, F2, F3, F4, F5):
+def puntoExperiencia(personaje, F1, F2, F3, F4, F5,opcion):
     input("Presiona enter para continuar...!")
     # Sumamos puntos de experiencia
-    puntoExp = F1 + F2 + F3 + F4 + F5
+    puntoExp = ((F1 + F2 + F3 + F4 + F5) ** (1 / opcion))
     
     # Mostramos
     print("-------------------------------------------")
@@ -488,7 +538,7 @@ def puntoExperiencia(personaje, F1, F2, F3, F4, F5):
     # Guardamos en historial
     historial.append((personaje, puntoExp))
 
-def menuSecundario():
+def menuSecundario(personaje, resultado):
     input("Presiona enter para continuar...!")
     while True:
         print("-----------------------------------------")
@@ -638,33 +688,7 @@ def menuSecundario():
         else:
             mensajeError()
             
-class Personaje:
-    def __init__(self, nombre, edad, nacionalidad, animal):
-        self.nombre = nombre
-        self.edad = edad
-        self.nacionalidad = nacionalidad
-        self.animal = animal
 
-    def mostrarInfo(self):
-        print(f"Soy {self.nombre}, tengo {self.edad} años, "
-              f"soy de {self.nacionalidad} y soy un {self.animal}.")
-
-    def edad_personaje(self):
-        return f"{self.nombre} tiene {self.edad} años."
-
-    def nacionalidad_personaje(self):
-        return f"{self.nombre} es de {self.nacionalidad}."
-
-    def tipo_animal(self):
-        return f"{self.nombre} es un {self.animal}."
-
-
-# Objetos creados
-miffy = Personaje("Miffy", 5, "Países Bajos", "Conejo")
-boris = Personaje("Boris", 6, "Países Bajos", "Oso")
-melany = Personaje("Melany", 5, "Países Bajos", "Conejo")
-snuffy = Personaje("Snuffy", 4, "Países Bajos", "Perro")
-poppy = Personaje("Poppy", 7, "Países Bajos", "Cerdito")
 def menuPrincipal():
     while True:
         try:
@@ -702,11 +726,12 @@ def menuPrincipal():
             3.Snuffy
             4-Boris
             5-Poppy
-            6- CONOCE A LOS PERSONAJES!
+            6-Aggie
+            7-Barbara
             Colaboración por Dick Bruna en Países Bajos.
             Autor: JAV
             PERSONAJE FAVORITO!:"""))
-            if(1<= opcion <=6):
+            if(1<= opcion <=7):
                 break
             else:
                 mensajeError()   
@@ -723,7 +748,7 @@ def menuPrincipal():
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
             F5 = carreras(opcion,personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4,F5)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4,F5, opcion)
             menuSecundario(personaje, resultado)
         case 2:
             personaje="Melanie"
@@ -735,7 +760,7 @@ def menuPrincipal():
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
             F5 = carreras(opcion,personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
             menuSecundario(personaje, resultado)
         case 3:
             personaje="Snuffy"
@@ -747,7 +772,7 @@ def menuPrincipal():
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
             F5 = carreras(opcion,personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
             menuSecundario(personaje, resultado)
         case 4:
             personaje="Boris"
@@ -759,7 +784,7 @@ def menuPrincipal():
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
             F5 = carreras(opcion,personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
             menuSecundario(personaje, resultado)
         case 5:
             personaje="Poppy"
@@ -771,72 +796,32 @@ def menuPrincipal():
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
             F5 = carreras(opcion,personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
             menuSecundario(personaje, resultado)
         case 6:
-            class Personaje:
-                def __init__(self, nombre, edad, animal, nacionalidad):
-                    self.nombre = nombre
-                    self.edad = edad
-                    self.animal = animal
-                    self.nacionalidad = nacionalidad
-
-                def mostrarInfo(self):
-                    print(f"{self.nombre} ({self.animal}), {self.edad} años, {self.nacionalidad}")
-
-                def edadPersonaje(self):
-                    return f"{self.nombre} tiene {self.edad} años"
-
-                def tipoAnimal(self):
-                    return f"{self.nombre} es un {self.animal}"
-
-                def nacionalidadPersonaje(self):
-                    return f"{self.nombre} es {self.nacionalidad}"
-
-
-            # Objetos creados directamente en el mismo archivo
-            miffy = Personaje("Miffy", 5, "Coneja", "neerlandes")
-            melanie = Personaje("Melanie", 5, "Coneja", "neerlandes")
-            snuffy = Personaje("Snuffy", 4, "Perro", "neerlandes")
-            boris = Personaje("Boris", 6, "Oso", "neerlandes")
-            poppy = Personaje("Poppy", 30, "Cerdita", "neerlandes")
-
-
-            # Parte del menú donde los muestras
-            print("CONOCE A LOS PERSONAJES")
-
-            miffy.mostrarInfo()
-            miffyIcon()
-            print(miffy.edadPersonaje())
-            print(miffy.nacionalidadPersonaje())
-            print(miffy.tipoAnimal())
-            
-            melanie.mostrarInfo()
-            melanieIcon()
-            print(melanie.edadPersonaje())
-            print(melanie.nacionalidadPersonaje())
-            print(melanie.tipoAnimal())
-            
-            snuffy.mostrarInfo()
-            snufyIcon()
-            print(snuffy.edadPersonaje())
-            print(snuffy.nacionalidadPersonaje())
-            print(snuffy.tipoAnimal())
-
-            boris.mostrarInfo()
-            borisIcon()
-            print(boris.edadPersonaje())
-            print(boris.nacionalidadPersonaje())
-            print(boris.tipoAnimal())
-            
-            poppy.mostrarInfo()
-            poppyIcon()
-            print(poppy.edadPersonaje())
-            print(poppy.nacionalidadPersonaje())
-            print(poppy.tipoAnimal())
-
-            input("Presiona enter para volver al menú principal...")
-            menuPrincipal()
+            personaje="Aggie"
+            print("OPCION INGRESADA CORRECTAMENTE!!!")
+            aggieIcon()
+            print("Usted eligio a Aggie")
+            F1 = mensajePersonaje(personaje)
+            F2 = numeroSaltos(opcion, personaje)
+            F3 = aprendeMate(opcion, personaje)
+            F4 = manzanas(opcion, personaje)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
+            menuSecundario(personaje, resultado)
+        case 7:
+            personaje="Barbara"
+            print("OPCION INGRESADA CORRECTAMENTE!!!")
+            barbaraIcon()
+            print("Usted eligio a Barbara")
+            F1 = mensajePersonaje(personaje)
+            F2 = numeroSaltos(opcion, personaje)
+            F3 = aprendeMate(opcion, personaje)
+            F4 = manzanas(opcion, personaje)
+            F5 = carreras(opcion,personaje) 
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5, opcion)
+            menuSecundario(personaje, resultado)           
         case _:
             print("Opción no válida")
 
