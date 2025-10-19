@@ -399,12 +399,51 @@ def manzanas(opcion, personaje):
     print("-----------------------------------")
     return F4
 
+def carreras(opcion, personaje):
+    print(r"""
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠶⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠁⠀⠉⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠴⠧⣀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⣵⣦⠀⠀⠈⣳⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣃⡠⠟⢷⣤⣤⠿⠾⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠠⠤⣄⡀⠀⠀⢠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣙⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠟⠁⠀⠀⠀⠀⠈⠙⢶⡀⢸⠁⠀⠀⠀⠀⣠⠶⠛⢿⣟⠛⠛⠉⠛⠻⣿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢰⡏⠀⠀⠀⠀⠀⠀⣀⡤⠖⣷⣼⡀⠀⠀⢀⡾⠃⠀⠀⠸⠿⠀⠀⠀⠀⠰⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⣠⡴⢻⠁⣠⠎⠁⠈⠧⣤⡴⠟⠁⠀⠀⠀⠀⠀⠀⠠⣿⡗⢠⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠓⠲⠦⠀⠀⠀⠀⠀      ____ ___  __  __ ____ ___ _____  _    __  __  ___  ____    _____ _   _ 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣄⣠⠞⣽⢃⡟⢠⠇⠀⠀⠀⢀⣨⠿⣤⣄⣠⣄⡀⠀⠀⠀⢀⣀⣠⣾⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     / ___/ _ \|  \/  |  _ \_ _|_   _|/ \  |  \/  |/ _ \/ ___|  | ____| \ | |
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡓⣿⢁⡾⠁⡼⡀⠀⠀⣰⠋⠀⠀⠀⡾⣻⢹⠛⠛⢻⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    | |  | | | | |\/| | |_) | |  | | / _ \ | |\/| | | | \___ \  |  _| |  \| |
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⣽⠙⠛⣡⠞⠁⠀⣧⠀⠀⢠⠇⠀⣀⠀⢸⣿⣿⢸⠀⢀⣠⠿⠛⠋⠁⠁⠉⠀⠀⠀⠀⠀⠰⡏⠀⠺⡿⠻⢷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   | |__| |_| | |  | |  __/| |  | |/ ___ \| |  | | |_| |___) | | |___| |\  |
+⠀⠀⠀⠀⠀⠀⠀⠀⡼⠙⠒⠚⠁⠀⠀⠀⢹⡀⣀⡟⠀⠈⠛⠿⣾⣿⡿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⣀⠀⠀⢈⣉⡓⢯⣷⢤.⠀⠀⠀⠀⠀⠀⠀⠀⠀     \____\___/|_| _|_|_|__|___|_|_/_/___\_\_| _|_|\___/|____/  |_____|_| \_|
+⠀⠀⣀⣴⣶⣶⣶⣾⣷⣦⣄⠀⠀⠀⠀⠀⠀⠙⢿⣇⣀⣀⡤⠴⠚⠉⠀⠀⢀⣀⣀⣠⣤⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⠦⢄⣈⠙⠛⠛⠀⠙⢶⣄⡀⠀⠀⠀⠀⠀⠀            / ___|  / \  |  _ \|  _ \| ____|  _ \    / \  / ___|| |                 
+⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣶⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠓⠒⠠⠴⠛⠈⠻⢷⣤⣤⣤⣤⣄           | |     / _ \ | |_) | |_) |  _| | |_) |  / _ \ \___ \| |                 
+⢠⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣤⣤⣀⠹⣄.⠀⠀⠀          | |___ / ___ \|  _ <|  _ <| |___|  _ <  / ___ \ ___) |_|                 
+⢸⣿⡏⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣷⣌⠻⡋⠙          \____/_/   \_\_| \_\_| \_\_____|_| \_\/_/   \_\____/(_)                 
+
+⢸⣿⣧⠀⢰⣿⣿⣿⣿⣿⣿⣿⡿⠤⠤⣤⣄⣀⣀⣀⣀⣀⣀⠀⢸⣿⣿⡇⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⣀⣉⣻⠿⠿⠛⠁⠀⠈⠀⠹⡄
+⠀⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⢹⣿⣿⣇⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠤⣤⣤⣤⣀⣀⣀⣀⠀⠀⠈⠉⠀⠀⠀⠀⠀⣀⣀⣤⡤⠾⠃
+⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣦⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠹⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀
+⠀⠀⠀⠙⠛⠛⠛⠛⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠚⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⠿⠿⠿⠿⠿⠻⠋⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢋⣀⣠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⡉⡛⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀          
+          """)
+    print(f"{personaje} quiere cometir en carreras!")
+    print(f"{personaje} dice que para medir la carrera, usara METROS!")
+    print("Ahora aprenderemos como usar esta unidad para medir la longitud")
+    input("Presiona enter para continuar... ")
+    F5=0
+    print(f"KILOMETRO {' '*3}METRO{' '*4}CENTIMETRO")
+    for x in range(1, 10*opcion+1):
+        print(f'{x:3d}{" "*7}{x*1000:4d}{" "*6}{x*100000:5,d}')
+        F5 += x**2
+    return F5
+    
 historial = []
 
-def puntoExperiencia(personaje, F1, F2, F3, F4):
+def puntoExperiencia(personaje, F1, F2, F3, F4, F5):
     input("Presiona enter para continuar...!")
     # Sumamos puntos de experiencia
-    puntoExp = F1 + F2 + F3 + F4
+    puntoExp = F1 + F2 + F3 + F4 + F5
     
     # Mostramos
     print("-------------------------------------------")
@@ -449,7 +488,7 @@ def puntoExperiencia(personaje, F1, F2, F3, F4):
     # Guardamos en historial
     historial.append((personaje, puntoExp))
 
-def menuSecundario(personaje, puntos):
+def menuSecundario():
     input("Presiona enter para continuar...!")
     while True:
         print("-----------------------------------------")
@@ -683,7 +722,8 @@ def menuPrincipal():
             F2 = numeroSaltos(opcion, personaje)
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4,F5)
             menuSecundario(personaje, resultado)
         case 2:
             personaje="Melanie"
@@ -694,7 +734,8 @@ def menuPrincipal():
             F2 = numeroSaltos(opcion, personaje)
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
             menuSecundario(personaje, resultado)
         case 3:
             personaje="Snuffy"
@@ -705,7 +746,8 @@ def menuPrincipal():
             F2 = numeroSaltos(opcion, personaje)
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
             menuSecundario(personaje, resultado)
         case 4:
             personaje="Boris"
@@ -716,7 +758,8 @@ def menuPrincipal():
             F2 = numeroSaltos(opcion, personaje)
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
             menuSecundario(personaje, resultado)
         case 5:
             personaje="Poppy"
@@ -727,7 +770,8 @@ def menuPrincipal():
             F2 = numeroSaltos(opcion, personaje)
             F3 = aprendeMate(opcion, personaje)
             F4 = manzanas(opcion, personaje)
-            resultado = puntoExperiencia(personaje, F1, F2, F3, F4)
+            F5 = carreras(opcion,personaje)
+            resultado = puntoExperiencia(personaje, F1, F2, F3, F4, F5)
             menuSecundario(personaje, resultado)
         case 6:
             class Personaje:
